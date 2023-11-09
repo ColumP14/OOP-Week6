@@ -20,8 +20,8 @@ public class ArrayDemo {
         anArray[8] = 900;
         anArray[9] = 1000;
 
-        for (i = 0; i < 10; i++) {
-            System.out.println("Element at index " + i + ": " + anArray[i]);
-        }
+            for (int temp : anArray) {
+                System.out.println("Element at index " + temp / 100 + ": " + temp);
+            }
     }
 }
